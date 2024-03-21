@@ -41,11 +41,11 @@ const CartItem = memo(({
             <img className={cls.image} src={cartItem.img} alt={cls.title} />
             <div className={cls.buyButtons}>
               <button onClick={reduce} className={cls.button}>
-                <img src="../../../public/minus.svg" alt="+1 товар" className={cls.btnImg} />
+                <img src="./images/minus.svg" alt="+1 товар" className={cls.btnImg} />
               </button>
               <p className={cls.count}>{value}</p>
               <button onClick={increase} className={cls.button}>
-                <img src="../../../public/plus.svg" alt="-1 товар" className={cls.btnImg} />
+                <img src="./images/plus.svg" alt="-1 товар" className={cls.btnImg} />
               </button>
             </div>
           </div>
@@ -60,7 +60,7 @@ const CartItem = memo(({
               onClick={() => removeProductCallback(cartItem.id)}
               className={cls.remove}
             >
-              <img src="../../../public/removeBtn.svg" alt="Удалить товар" />
+              <img src="./images/removeBtn.svg" alt="Удалить товар" />
             </button>
             <p className={cls.sumPrice}>
               {isDiscounted ? discountPrice*cartItem.count : cartItem.price * cartItem.count} &#8381;
