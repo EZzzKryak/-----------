@@ -1,5 +1,5 @@
 # Neoflex Test
 
-Run `npm run dev`
+Run `npm i` -> `npm start`
 
 Link on project: https://ezzzkryak.github.io/neoflex/
