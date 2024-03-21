@@ -1,0 +1,15 @@
+.productsList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 30px;
+}
+
+.headCategory {
+    margin: 0 0 20px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #838383;
+    text-align: left;
+}

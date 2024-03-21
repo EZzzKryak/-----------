@@ -1,0 +1,107 @@
+.productItem {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.info {
+    margin: 32px 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px 30px;
+}
+
+.rateWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.rateImg {
+    align-self: end;
+    background-image: url(../../assets/rate.svg);
+    width: 23px;
+    height: 21px;
+    margin-bottom: 3px;
+}
+
+.image {
+    object-fit: contain;
+    display: block;
+    margin: 15px auto 0;
+    width: 230px;
+    height: 260px;
+}
+
+.title,
+.price,
+.rate,
+.buyBtn {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.title {
+    margin-top: auto;
+    display: inline;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.titleWrapper {
+    text-align-last: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.priceWrapper {
+    position: relative;
+    margin-left: auto;
+}
+
+.price {
+    color: #FFA542;
+    margin: 0;
+}
+
+.rate {
+    margin-bottom: auto;
+    color: rgba(131, 131, 131, 1);
+}
+
+.buyBtn {
+    border: none;
+    padding: 0;
+    background-color: #fff;
+    margin-left: auto;
+    margin-top: auto;
+    cursor: pointer;
+    transition: color .1s;
+    &:hover {
+        color: #FFA542;
+    }
+}
+
+.linkToCart {
+    color: #989898;
+    text-decoration: none;
+}
+
+.oldPrice {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFCE7F;
+    text-decoration: line-through;
+}

@@ -1,0 +1,39 @@
+.cart {
+    height: 100%;
+}
+
+.cartHeader {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    text-align: left;
+}
+
+.cartWrapper {
+    height: 100%;
+    margin: 13px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.emptyCart {
+    margin: 0 0 30px 350px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(146, 146, 146);
+}

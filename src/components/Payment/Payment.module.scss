@@ -1,0 +1,54 @@
+.payment {
+    position: sticky;
+    top: 128px;
+    width: 350px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: end;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.paymentStats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title,
+.totalPrice {
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.totalPrice {
+    margin-right: 20px;
+}
+
+.paymentBtn {
+    width: 100%;
+    background-color: #000;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+    padding: 21px 0;
+    cursor: pointer;
+    transition: background-color .3s;
+    &:hover {
+        background-color: rgba(255, 206, 127, 1);
+    }
+    &:disabled {
+        background-color: rgb(146, 146, 146);
+        cursor: not-allowed;
+    }
+}
