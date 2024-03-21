@@ -1,7 +1,7 @@
 export const headphones = [
   {
     id: 1,
-    img: "src/assets/Beats Tour.jpg",
+    img: "../../public/Beats Tour.jpg",
     title: "Beats Tour",
     price: 4990,
     rate: 4.4,
@@ -10,7 +10,7 @@ export const headphones = [
   },
   {
     id: 2,
-    img: "src/assets/Beats Mixr.jpg",
+    img: "../../public/Beats Mixr.jpg",
     title: "Beats Mixr",
     price: 9900,
     rate: 4.6,
@@ -19,7 +19,7 @@ export const headphones = [
   },
   {
     id: 3,
-    img: "src/assets/PowerBeats 1.jpg",
+    img: "../../public/PowerBeats 1.jpg",
     title: "PowerBeats 1",
     price: 11000,
     rate: 4.5,
@@ -28,7 +28,7 @@ export const headphones = [
   },
   {
     id: 4,
-    img: "src/assets/Beats Tour 2.jpg",
+    img: "../../public/Beats Tour 2.jpg",
     title: "Beats Tour 2",
     price: 4990,
     rate: 4.0,
@@ -37,7 +37,7 @@ export const headphones = [
   },
   {
     id: 5,
-    img: "src/assets/Powerbeats Pro.jpg",
+    img: "../../public/Powerbeats Pro.jpg",
     title: "Powerbeats Pro",
     price: 18990,
     rate: 5.0,
@@ -46,7 +46,7 @@ export const headphones = [
   },
   {
     id: 6,
-    img: "src/assets/Beats Solo3 Wireless.jpg",
+    img: "../../public/Beats Solo3 Wireless.jpg",
     title: "Beats Solo 3 Wireless",
     price: 14990,
     rate: 4.9,
@@ -55,7 +55,7 @@ export const headphones = [
   },
   {
     id: 7,
-    img: "src/assets/PowerBeats 2.jpg",
+    img: "../../public/PowerBeats 2.jpg",
     title: "PowerBeats 2",
     price: 28000,
     rate: 4.8,
@@ -64,7 +64,7 @@ export const headphones = [
   },
   {
     id: 8,
-    img: "src/assets/urBeats.jpg",
+    img: "../../public/urBeats.jpg",
     title: "urBeats",
     price: 3990,
     rate: 4.5,
@@ -73,7 +73,7 @@ export const headphones = [
   },
   {
     id: 9,
-    img: "src/assets/Beats Studio Buds.jpg",
+    img: "../../public/Beats Studio Buds.jpg",
     title: "Beats Studio Buds",
     price: 13990,
     rate: 4.9,
@@ -82,7 +82,7 @@ export const headphones = [
   },
   {
     id: 10,
-    img: "src/assets/Beats Fit Pro.jpg",
+    img: "../../public/Beats Fit Pro.jpg",
     title: "Beats Fit Pro",
     price: 19990,
     rate: 4.6,
@@ -91,7 +91,7 @@ export const headphones = [
   },
   {
     id: 11,
-    img: "src/assets/Beats Flex.jpg",
+    img: "../../public/Beats Flex.jpg",
     title: "Beats Flex",
     price: 6490,
     rate: 4.8,
@@ -100,7 +100,7 @@ export const headphones = [
   },
   {
     id: 12,
-    img: "src/assets/Beats Solo Pro.jpg",
+    img: "../../public/Beats Solo Pro.jpg",
     title: "Beats Solo Pro",
     price: 14900,
     rate: 4.7,
