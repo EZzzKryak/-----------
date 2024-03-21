@@ -18,7 +18,7 @@ const App = () => {
   }, [products]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/neoflex">
       <YMaps>
         <ProductsContext.Provider value={headphones}>
           <div className={cls.app}>
